@@ -42,7 +42,7 @@ modeled athletic value.
 | wage_eur | Raw | Encodes institutional reputation and league context |
 
 ### Econometric decisions
-- **Log transformation:** `log1p(value_eur)` applied — corrects severe right skew
+- **Log transformation:** `log1p(value_eur)` applied. It corrects severe right skew
 - **Residual outlier removal:** 3-sigma rule removes 750 observations where
   structural model error exceeded 3 standard deviations (Q-Q tail anomalies)
 - **Robust standard errors:** HC3 - justified by inherent heteroscedasticity
@@ -91,8 +91,8 @@ undervaluation opportunities—like Martínez and Onana—by pitting real market
 
 ## Limitations
 - FIFA ratings are inherently subjective and scout-dependent
-- Elite players (Mbappé, Haaland) are effectively untransferable —
-  their commercial premium is structurally outside the model's scope
+- Elite players (Mbappé, Haaland) are effectively untransferable.
+  Their commercial premium is structurally outside the model's scope
 - Model is best interpreted as a **relative ranking tool**, not a valuation engine
 - Three predictors by design — parsimony over complexity
 
