@@ -11,14 +11,14 @@ data separate athletic value from market noise?**
 Using the FIFA Male Players dataset (52,361 observations), a log-linear OLS
 regression was built to estimate market value from three dimensions: athletic
 quality, age trajectory, and market embeddedness (wage). The model achieves
-R² = 0.91 and is designed to operate as a relative ranking tool — not a
-precise price oracle — for identifying undervalued mid-tier talent.
+R² = 0.91 and is designed to operate as a relative ranking tool (not a
+precise price oracle) for identifying undervalued mid-tier talent.
 
 ---
 
 ## Business context
 For clubs outside the financial elite, overpaying for the wrong player is not
-just a sporting error — it is a financial one. This model provides a systematic
+just a sporting error, it is a financial one. This model provides a systematic
 baseline to flag players whose asking price diverges meaningfully from their
 modeled athletic value.
 
@@ -45,7 +45,7 @@ modeled athletic value.
 - **Log transformation:** `log1p(value_eur)` applied — corrects severe right skew
 - **Residual outlier removal:** 3-sigma rule removes 750 observations where
   structural model error exceeded 3 standard deviations (Q-Q tail anomalies)
-- **Robust standard errors:** HC3 — justified by inherent heteroscedasticity
+- **Robust standard errors:** HC3 - justified by inherent heteroscedasticity
   in football transfer markets (Neymar-type outliers create non-constant variance)
 - **No normality assumption needed:** Central Limit Theorem holds at n = 52,361
 
@@ -61,7 +61,7 @@ modeled athletic value.
 | Mean absolute error | €377,484 |
 
 All three predictors significant at the 5% level. Overall rating dominates.
-Age² enters negative — value depreciates non-linearly after prime.
+Age² enters negative - value depreciates non-linearly after prime.
 Wage adds predictive power beyond rating alone, likely capturing league
 prestige and commercial profile.
 
