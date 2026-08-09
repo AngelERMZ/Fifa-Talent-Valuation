@@ -84,7 +84,7 @@ prestige and commercial profile.
 <img src="img/dashboard.png" width="800" alt="2024 FIFA Talent Valuation Model Dashboard">
 </p>
 <p align="center"><i>Figure 1: This interactive dashboard visualizes our predictive model, instantly spotlighting 
-undervaluation opportunities—like Martínez and Onana—by pitting real market prices against our data-driven estimations.
+undervaluation opportunities, like Martínez and Onana, by pitting real market prices against our data-driven estimations.
 </i></p>
 
 ---
