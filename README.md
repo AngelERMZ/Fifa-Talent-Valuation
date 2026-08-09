@@ -94,7 +94,7 @@ undervaluation opportunities (like Martínez and Onana) by pitting real market p
 - Elite players (Mbappé, Haaland) are effectively untransferable.
   Their commercial premium is structurally outside the model's scope
 - Model is best interpreted as a **relative ranking tool**, not a valuation engine
-- Three predictors by design — parsimony over complexity
+- Three predictors by design. Parsimony over complexity
 
 
 ---
